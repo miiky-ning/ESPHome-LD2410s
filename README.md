@@ -4,11 +4,14 @@ Hi-Link LD2410s For ESPHome
 ## 适用于HLK-LD2410S低功耗人体存在感应模组的驱动。<br>
 设备型号：HLK-LD2410S<br>
 固件版本：1.1.1<br>
+串口默认波特率： 115200<br>
+停止位：1<br>
+无奇偶校验位。
 
 ## 使用方法<br>
 将LD2410_uart.h文件放置在ESPHome的配置文件夹中即可使用<br>
 example：/homeassistant/esphome/components<br>
-yaml代码详见hlkld2410s
+esphome配置代码详见：hlkld2410s.yaml
 
 
 名称 | 功能 | 说明
